@@ -3,7 +3,7 @@ import {Button, Card, CardContent, Grid, TextField, Typography} from "@mui/mater
 
 
 
-const LoginForm = () =>{
+const LoginForm = (props) =>{
     return(
 
         <form>
@@ -24,7 +24,7 @@ const LoginForm = () =>{
                 label='Password'
             />
 
-            <Button variant='contained'>Login</Button>
+            <Button  variant='contained'>{props.buttonType}</Button>
         </form>
 
 
