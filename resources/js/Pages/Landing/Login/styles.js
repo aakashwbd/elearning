@@ -3,7 +3,7 @@ import {makeStyles} from "@mui/styles";
 export const useStyles = makeStyles(()=>({
    wrapper:{
        width: '100%',
-       height: '100%',
+       height: '100vh',
        display: 'flex',
        alignItem: 'center',
        flexDirection: 'column',

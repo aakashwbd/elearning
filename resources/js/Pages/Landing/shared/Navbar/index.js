@@ -8,7 +8,7 @@ const Navbar = () => {
         <AppBar>
             <Toolbar>
                 <Container maxWidth='lg'>
-                    <Grid container>
+                    <Grid container alignItems='center' justifyContent='space-evenly'>
                         <Grid item>
                             <IconButton>
                                 <Avatar className={classes.logo} src={LogoImg}/>
